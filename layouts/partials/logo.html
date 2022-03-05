@@ -1,0 +1,11 @@
+<a
+  href="{{ if $.Site.Params.Logo.LogoHomeLink }}{{ $.Site.Params.Logo.LogoHomeLink }}{{ else }}{{ $.Site.BaseURL }}{{ end }}"
+  class="logo"
+  style="text-decoration: none;"
+>
+  {{ if $.Site.Params.Logo.path }}
+    <img src="{{ $.Site.Params.Logo.path }}" alt="{{ $.Site.Params.Logo.alt }}" />
+  {{ else }}
+    <h1> {{ with $.Site.Title }}{{ . }}{{ else }}hello friend{{ end }} </h1>
+  {{ end }}
+</a>

@@ -1,0 +1,37 @@
+baseUrl: /
+languageCode: en-us
+copyright: " "
+paginate: 5
+title: Erstwhile
+subtitle: Your site subtitle
+keywords: ''
+menuMore: Show more
+writtenBy: Written by
+readMore: Read more
+readOtherPosts: Read other posts
+newerPosts: Newer posts
+olderPosts: Older posts
+dateFormatSingle: 2006-01-02
+dateFormatList: 2006-01-02
+
+theme: 
+  - hugo-video
+  - hello-friend
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # "dark" or "light"
+  defaultTheme: dark
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
+  logoHomeLink: /
+
+# menu:
+#   main:
+#   - identifier: about
+#     name: About
+#     url: /about
+#   - identifier: showcase
+#     name: Showcase
+#     url: /showcase
