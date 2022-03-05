@@ -4,7 +4,6 @@ date: 2022-01-15
 description: "New year, new game, and new blog"
 cover: "blog1-2048x1110.png"
 useRelativeCover: true
-draft: true
 ---
 
 I've decided to start working on a game a few months ago in my spare time and I've really been enjoying the experience of making something creative and fun. I've recently decided to name this project "Erstwhile" (which means "formerly" or "past") and make a development blog to detail the progress. I fell in love with software development by reading development blogs so I thought it would be nice to start my own.
